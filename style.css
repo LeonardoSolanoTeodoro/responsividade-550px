@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+
+}
+
+.logo{
+    width: 85px;
+    padding-bottom: 30px;
+    margin-left:30px;
+cursor: pointer;
+}
+
+
+
+h1, h2, h3{
+    color: #333;
+}
+
+p{
+    color: #70747a;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #232a31 ;
+    padding: 0 2rem;
+}
+
+.navbar-itens{
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+    
+    
+}
+
+.navbar-itens ul li a {
+    
+    transform: 0.5s;
+    color: white;
+}
+
+.navbar-itens a{
+    color: bisque;
+}
+
+.navbar-itens li a:hover {
+    color: black;
+}
+
+.navbar-itens li {
+    display: inline-block;
+    padding-left: 50px;
+    
+
+}
+
+.btnentrar{
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    text-decoration: none;
+    background-color: #105697;
+    border: 2px solid #105697;
+}
+
+
+a.btnentrar:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #041d5f;
+    cursor: pointer;
+    
+}
+
+
+
+    
+    .main-banner{
+        background-image: url(/img/John_M_a_landscape_painting_of_the_downtown_Cheyenne_Wyoming_in_2c1fa65e-290d-4cdf-8f29-deeb23e32987.png);
+        padding: 12rem 0;
+        background-size: cover;
+        background-position: center;
+        
+        
+    }
+
+    .main-banner h1,
+    .main-banner p{
+        color: azure;
+        text-align: center;
+        font-weight: bold;
+        text-shadow: #000 3px 2px 3px ;
+    }
+
+    .main-banner h1{
+        font-size: 54px;
+    }
+    .main-banner p{
+        font-size: 32px;
+    }
+
+    .services{
+        padding: 5rem 0;
+        
+    }
+
+    .services ul{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        
+        
+    }
+
+    .services li {
+        flex: 1 1 200px;
+        list-style: none;
+        text-align: center;
+        padding: 20px;
+        border: 2px solid #041d5f;
+        outline: none;
+        border-radius:30px ;
+        margin-left: 20px;
+        cursor: pointer;
+        
+    }
+    .services li:hover{
+        transform: scale(1.2);
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .fas{
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+
+   .fa-shield-alt {
+        color:
+        #041d5f;
+    } 
+    .fa-rocket {
+        color: #7466ec;
+    }
+    .fa-comments {
+        color:  #067ff0;
+    }
+
+    .services h3{
+        margin-bottom: 25px;
+    }
+    .services p{
+        line-height: 24px;
+    }
+
+    .prices{
+        padding-bottom: 5rem;
+        text-align: center;
+    }
+    .prices h2{
+        font-size: 36px;
+    }
+    .prices p{
+        font-size: 20px;
+    }
+
+    .plans-container{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 50px auto 0;
+      }
+
+    .plan{
+        flex: 1;
+        max-width: 275px; 
+        margin: 0 20px;
+    }
+
+    .plan ul{
+        padding: 0;
+    }
+
+    .plan li{
+        height: 50px;
+        line-height: 50px;
+        background-color: #e8e9ea;
+        color: #333;
+    }
+
+    .plan .price{
+        width: 120px;
+        height: 120px;
+        border-radius: 50px;
+        background-color: #105697;
+        color: white;
+        text-align: center;
+        line-height: 120px;
+        margin: 0 auto -50px;
+        font-size: 18px;
+        position: relative;
+    }
+
+    .plan .plan-name{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        background-color: #041d5f;
+        padding: 50px 0;
+    }
+
+    .plan .btn-recomendado{
+        background-color: #105697;
+        color: #e8e9ea;
+        font-size: 24px;
+        height: 75px;
+        line-height: 75px;
+        cursor: pointer;
+    }
+
+
+    .plan .btn-recomendado:hover{
+        box-shadow: 0px 0px 5px #000, 0px 0px 15px #6200ff;
+
+    }
+
+ .domain{
+    background-color: #105697;
+    text-align: center;
+    padding: 5rem 0;
+ }
+ .domain h2{
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 15px;
+ }
+
+ .domain p{
+    color: #d5d5d5;
+    font-size: 24px;
+    margin-bottom: 15px;
+ }
+
+ .domain input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+ }
+
+ .domain input[type="text"]{
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+ }
+
+ .domain input[type="submit"]{
+    background-color: #7466ec;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: .4;
+ }
+
+ .domain input[type="submit"]:hover{
+    transform: scale(1.3);
+    opacity: 1;
+ }
+
+ .contact{
+    text-align: center;
+    padding: 5rem 2rem 0;
+ }
+
+ .contact h2{
+    font-size: 36px;
+ }
+
+ .contact p{
+    font-size: 20px;
+    margin-bottom: 40px;
+ }
+
+ .contact input,
+ .contact textarea{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0px 10px 20px;
+ }
+
+ .contact textarea{
+    display: block;
+    margin: 0 auto  20px ;
+    width: 470px;
+    height: 150px;
+ }
+
+ .contact input[type="submit"
+ ]{
+    display: block;
+    margin: 0 auto;
+    background-color: #105697;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 30px;
+ }
+
+ footer p{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 100px;
+  margin-top: 30px;
+ }
+
+ /* small laptops*/
+
+ @media (max-width: 1100px){
+
+.prices{
+width: 95%;
+}
+  
+.plan{
+    margin: 0 5px;
+}
+
+}
+@media (max-width: 900px){
+    .main-banner p{
+        padding: 0 6rem;
+    }
+
+
+.domain{
+    padding: 2rem 4rem;
+}
+}
+@media (max-width: 550px){
+
+    .services ul li i{
+        flex-direction: column;
+    }
+
+    .plan{
+        margin-bottom: 10px;
+    }
+
+.prices h2 p{
+    margin-left: 165px ;
+    
+}
+
+.plans-container{
+    flex-direction: column;
+    margin-left: 140px;
+    margin-top: 30px;
+   
+
+}
+
+.logo{
+    margin-left: 1px;
+    margin: 0 auto;
+}
+
+.navbar{
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+
+.services ul, li, i{
+    flex-direction: column;
+    margin-top: 25x;
+    margin-bottom: 60px;
+}
+
+}
+
+   
+
+
+@media (max-width: 600px){
+
+    .services ul li i{
+        flex-direction: column;
+    }
+
+    .plan{
+        margin-bottom: 10px;
+    }
+
+.prices h2 p{
+    margin-left: 165px ;
+    
+}
+
+.plans-container{
+    flex-direction: column;
+    margin-left: 140px;
+    margin-top: 30px;
+   
+
+}
+
+.logo{
+    margin-left: 1px;
+    margin: 0 auto;
+}
+
+.navbar{
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+
+.services ul, li, i{
+    flex-direction: column;
+    margin-top: 25x;
+    margin-bottom: 60px;
+}
+}
